@@ -1,0 +1,9 @@
+@import 'src/styles/vars';
+
+.app {
+  max-width: 700px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: $lightColor;
+  position: relative;
+}

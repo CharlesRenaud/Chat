@@ -1,0 +1,26 @@
+@import 'src/styles/vars';
+
+.form {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+
+  .input-message {
+    width: 100%;
+    padding: 1em;
+    font-size: 1.2em;
+    padding-right: 4rem;
+  }
+
+  .button-submit {
+    border: none;
+    height: 4rem;
+    color: $lightColor;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    width: 4rem;
+  }
+}
